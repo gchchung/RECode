@@ -12,3 +12,5 @@ For example, RECoding the DNA sequence 5'-CGTCAATCGTATGGA-3' (translation RQSYG)
 ```
 RECode.py -n CGTCAATCGTATGGA -p CQSYG -c 6 -o recoded.6-cutters.txt
 ```
+
+Requires only standard Python3 (no BioPython required)!
