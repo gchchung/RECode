@@ -10,7 +10,7 @@ Download both the Python script and the restriction_enzymes.txt file to your wor
 RECode.py -n original_nucleotide_sequence -p mutated_peptide_sequence -o output_file -c cutter_recognition_length
 ```
 
-For example, RECoding the DNA sequence 5'-CGTCAATCGTATGGA-3' (translation RQSYG) to translate **C**QSYG, and see which 6-cutters can cut the recoded sequences.
+For example, RECoding the DNA sequence 5'-CGTCAATCGTATGGA-3' (translation RQSYG) to give **C**QSYG instead, and see which 6-cutters can cut the recoded sequences.
 ```
 RECode.py -n CGTCAATCGTATGGA -p CQSYG -c 6 -o recoded.6-cutters.txt
 ```
