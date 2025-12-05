@@ -5,7 +5,8 @@ Ever wanted to use Cas9 to generate a point mutation, but could not figure out a
 
 Then RECode.py is your friend!
 
-Download both the Python script and the restriction_enzymes.txt file to your working folder. Then run
+Download both the Python script and the '''NEB_restriction_enzyme_list_and_recognition_sequences.txt'''
+ file to your working folder. Then run
 ```
 RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTPUT> -c <CUTTER_RECOGNITION_LENGTH>
 ```
@@ -22,7 +23,7 @@ RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTPUT> -c <
 
 
 For example, RECoding the DNA sequence 5'-CGTCAATCGTATGGA-3' (translation RQSYG) to give **C**QSYG instead, and see which 6-cutters can cut the recoded sequences, and save the results to output.txt.
-```
+```python
 RECode.py -n CGTCAATCGTATGGA -p CQSYG -c 6 -o output.txt
 ```
 
