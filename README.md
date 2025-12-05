@@ -7,8 +7,8 @@ Then RECode.py is your friend!
 
 Download both the Python script and the ```NEB_restriction_enzyme_list_and_recognition_sequences.txt```
  file to your working folder. Then run
-```
-RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTPUT> -c <CUTTER_RECOGNITION_LENGTH>
+```python
+python3 RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTPUT> -c <CUTTER_RECOGNITION_LENGTH>
 ```
 
 | required | description |
