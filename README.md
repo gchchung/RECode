@@ -10,11 +10,11 @@ Download both the Python script and the restriction_enzymes.txt file to your wor
 RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTPUT> -c <CUTTER_RECOGNITION_LENGTH>
 ```
 
-| required arg | description |
+| required | description |
 |---|---|
 |-n|Original nucleotide sequence. For simplicity of implementation, the first nucleotide defines the +1 reading frame and no other frames will be considered.|
 
-|optional arg| description |
+|optional | description |
 |---|---|
 |-p |The translation you want the to mutate to. If the argument is not given, RECode will only re-encode the WT sequence to look for RE sites|
 |-o |Output file name.|
