@@ -19,7 +19,7 @@ python3 RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTP
 |---|---|
 |-p |The translation you want to mutate to. If the argument is not given, RECode will only re-encode the WT sequence to look for RE sites|
 |-o |Output file name. By default it's a long file name with your WT sequence in it.|
-|-c |Specifies 'c'-cutters (eg. 6-cutters). If the argument is not given, RECode will consider all REs in the "restriction_enzymes.txt" file.|
+|-c |Specifies 'c'-cutters (eg. 6-cutters). If the argument is not given, RECode will consider all REs in the restriction enzymes text file.|
 
 
 For example, RECoding the DNA sequence 5'-CGTCAATCGTATGGA-3' (translation RQSYG) to give **C**QSYG instead, and see which 6-cutters can cut the WT and recoded sequences, and save the results to output.txt.
