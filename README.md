@@ -7,8 +7,19 @@ Then RECode.py is your friend!
 
 Download both the Python script and the restriction_enzymes.txt file to your working folder. Then run
 ```
-RECode.py -n original_nucleotide_sequence -p mutated_peptide_sequence -o output_file -c cutter_recognition_length
+RECode.py -n <ORIGINAL_NUCLEOTIDE_SEQ> -p <MUTATED_PEPTIDE_SEQ> -o <OUTPUT> -c <CUTTER_RECOGNITION_LENGTH>
 ```
+
+| required arg | description |
+|---|---|
+|-n|original nucleotide sequence|
+
+|optional arg| description |
+|---|---|
+|-p |The translation you want the to mutate to. If the argument is not given, RECode will only re-encode the WT sequence to look for RE sites|
+|-o |Output file name.|
+|-c |Specifies 'c'-cutters (eg. 6-cutters). If the argument is not given, RECode will consider all REs in the "restriction_enzymes.txt" file.|
+
 
 For example, RECoding the DNA sequence 5'-CGTCAATCGTATGGA-3' (translation RQSYG) to give **C**QSYG instead, and see which 6-cutters can cut the recoded sequences, and save the results to output.txt.
 ```
