@@ -1,5 +1,5 @@
 # RECode.py
-Restriction-Enzyme-based genotyping enabled by re-enCODEd sequences
+*R*estriction-*E*nzyme-based genotyping enabled by re-en*CODE*d sequences
 
 Ever wanted to use Cas9 to generate a point mutation, but could not figure out a way to generate a new restriction enzyme site to facilitate genotyping later? Perhaps you also wanted to mutate the original guide RNA recognition sequence (~20 nt) to ensure edited DNA did not get cut again?
 
