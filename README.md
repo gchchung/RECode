@@ -28,3 +28,4 @@ python3 RECode.py -n CGTCAATCGTATGGA -p CQSYG -c 6 -o output.txt
 ```
 
 Requires only standard Python3 (no BioPython required)!
+**NB: currently only transl_table=1 codons are implemented. This applies to eukaryotic nuclear and most bacterial translations - think the codon table in your intro biology textbook.**
